@@ -92,3 +92,26 @@ body {
     }
 }
 /* end of navbar */
+
+/* Cards */
+
+.card-common {
+    box-shadow: 1px 2px 5px #999;
+    transition: all .4s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+}
+
+.card-common:hover {
+    box-shadow: 2px 3px 15px #999;
+    transform: translateY(-1px);
+    -webkit-transform: translateY(-1px);
+    -moz-transform: translateY(-1px);
+    -ms-transform: translateY(-1px);
+    -o-transform: translateY(-1px);
+}
+
+
+/* End of Cards */
